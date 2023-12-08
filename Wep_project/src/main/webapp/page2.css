@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+body {
+	background-color: #FAD1AA;
+	min-height: 100vh;
+}
+
+.dongguk {
+	position: absolute;
+	top: 6%;
+	left: 3%;
+	width: 15%;
+	max-width: 200px;
+	height: auto;
+}
+
+.dongguk img {
+	width: 80%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.choose {
+	position: absolute;
+	top: 9%;
+	left: 30%;
+	width: 8%;
+	height: auto;
+}
+
+.choose img {
+	width: 200%;
+	height: auto;
+}
+
+.bubble {
+	position: absolute;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 8px;
+	margin: 20px;
+	top: 18%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+	height: 3%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	line-height: 1;
+	justify-content: center;
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 1.3em;
+	box-shadow: 6px 6px 0px 0px rgba(103, 101, 101, 0.5);
+}
+
+.bubble::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -10px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: transparent rgba(255, 255, 255, 0.5) transparent transparent;
+}
+
+
+.box {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 75%;
+	height: 60%;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 1);
+	row-gap: 2px;
+}
+
+
+.button-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	background-size: contain;
+	border: none;
+	width: 65px;
+	height: 65px;
+	cursor: pointer;
+	transition: opacity 0.3s ease;
+}
+
+button:active {
+	transform: scale(0.9);
+}
+
+button#button1 {
+	background: url('img/b1.png') no-repeat center center;
+	background-size: contain;
+}
+
+button#button2 {
+	background: url('img/b2.png') no-repeat center center;
+	background-size: contain;
+}
+
+button#button3 {
+	background: url('img/b3.png') no-repeat center center;
+	background-size: contain;
+}
+
+button#button4 {
+	background: url('img/b4.png') no-repeat center center;
+	background-size: contain;
+}
+
+button#button5 {
+	background: url('img/b5.png') no-repeat center center;
+	background-size: contain;
+}
+
+button#button6 {
+	background: url('img/b6.png') no-repeat center center;
+	background-size: contain;
+}
+
+button#button7 {
+	background: url('img/b7.png') no-repeat center center;
+	background-size: contain;
+}
+
+button#button8 {
+	background: url('img/b8.png') no-repeat center center;
+	background-size: contain;
+}
+
+button#button9 {
+	background: url('img/b9.png') no-repeat center center;
+	background-size: contain;
+}
+
+button#button10 {
+	background: url('img/b10.png') no-repeat center center;
+	background-size: contain;
+}
+
+button#button11 {
+	background: url('img/b11.png') no-repeat center center;
+	background-size: contain;
+}
+
+button#button12 {
+	background: url('img/b12.png') no-repeat center center;
+	background-size: contain;
+}

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body {
+	background-color: #FAD1AA;
+	min-height: 100vh;
+}
+
+.dongguk {
+	position: absolute;
+	top: 6%;
+	left: 3%;
+	width: 15%;
+	height: auto;
+}
+
+.dongguk img {
+	width: 80%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.food {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.5);
+	top: 10%;
+	left: 21%;
+	height: 35%;
+	width: 60%;
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+.food:after {
+	border-top: 100px solid rgba(255, 255, 255, 0.5);
+	border-left: 80px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 0px solid transparent;
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 30%;
+	transform: translateX(-50%);
+}
+
+
+.gift {
+	position: absolute;
+	top: 55%;
+	left: 40%;
+	width: 20%;
+	height: auto;
+}
+
+.gift img {
+	width: 100%;
+	height: auto;
+}
+
+.food big {
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 2.5em;
+}
+
+.food a {
+	color: orange;
+	font-size: 3em;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.food a:active {
+	font-size: 2.8em;
+}
+
+.food small {
+	font-size: 0.8em;
+	color: black;
+}
+    
